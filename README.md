@@ -1,29 +1,10 @@
-# dailydrinks
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+僅簡單的透過Vuex做前端資料的操作，
+透過在主頁面點擊新增下訂單可切換頁面進行編輯。
+基本功能：
+  1. 基本新增/修改訂單
+  2. 新增/修改前判斷是否有欄位是空的
+  3. 使用修改有帶入先前資料
+  4. 簡易排版
+  
+由於沒有使用後端資料庫，僅使用Vuex，所以重新整理後資料會回復成預設的。
+但不重新整理一樣能看到基本的資料變化
